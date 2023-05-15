@@ -1,0 +1,600 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,300&display=swap");
+@media only screen and (min-device-width: 1200px) 
+and (max-device-width: 1600px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+  }
+
+  .firstsection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: url("../img/image-hero.jpg");
+    background-size: cover;
+    height: 600px;
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  }
+  .nav {
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    align-items: center;
+  }
+  .menu {
+    display: none;
+  }
+  .nleft {
+    color: white;
+    text-align: left;
+    font-size: 40px;
+    font-weight: 800;
+    width: 20%;
+    flex-grow: 1;
+  }
+  .nright {
+    display: flex;
+    flex-direction: row;
+    width: 35%;
+  }
+  .title {
+    width: 20%;
+    color: white;
+    text-align: center;
+    font-size: medium;
+    margin: 10px;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  a:hover {
+    color: yellow;
+  }
+  .box {
+    height: 450px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+  }
+  .txt {
+    color: white;
+    font-size: 70px;
+    font-weight: 200;
+    width: 650px;
+    height: 270px;
+    border: 50px, white;
+    border-style: solid;
+    padding: 30px;
+    align-self: center;
+    text-transform: uppercase;
+  }
+  .ssection {
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+  }
+  .imgs {
+    width: 80%;
+  }
+  .img {
+    z-index: 0;
+  }
+  .sbox {
+    display: flex;
+    flex-direction: column;
+    height: 330px;
+    width: 620px;
+    margin-left: 0px;
+    position: absolute;
+    z-index: 1;
+    right: 190px;
+    bottom: 50px;
+    background-color: white;
+    padding: 100px;
+  }
+  .stitle {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 10px;
+  }
+  .stxt {
+    font-size: 15px;
+    margin-top: 10px;
+    opacity: 0.8;
+    font-weight: 500;
+  }
+  .thsection {
+    height: 1050px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+  }
+  .row1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 10%;
+  }
+  .our {
+    text-transform: uppercase;
+    font-size: 30px;
+    flex-grow: 0.4;
+  }
+  .but {
+    margin-left: 40px;
+  }
+
+  .btn1 {
+    padding: 10px 50px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(94, 90, 94);
+    color: rgb(70, 67, 70);
+    background-color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+
+  .btn1:hover {
+    background-color: rgb(105, 225, 255);
+  }
+
+  .ourclm {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+  }
+  .r1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 50%;
+    margin-right: 8%;
+    margin-left: 8%;
+  }
+  .r2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 50%;
+    margin-right: 8%;
+    margin-left: 8%;
+  }
+  .ourimg {
+    margin-bottom: 20px;
+    height: 450px;
+    width: 20%;
+    background-repeat: no-repeat;
+    color: white;
+    text-transform: uppercase;
+    font-size: xx-large;
+    font-weight: lighter;
+    padding-top: 350px;
+    padding-left: 40px;
+    padding-right: 50px;
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 1) 70%
+    );
+  }
+
+  .ourimg:hover {
+    color: rgb(72, 9, 243);
+  }
+  #img1 {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 20%,
+        rgba(0, 0, 0, 1)
+      ),
+      url(../img/image-deep-earth.jpg);
+  }
+  #img2 {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 20%,
+        rgba(0, 0, 0, 1)
+      ),
+      url(../img/image-night-arcade.jpg);
+  }
+  #img3 {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 20%,
+        rgba(0, 0, 0, 1)
+      ),
+      url(../img/image-soccer-team.jpg);
+  }
+  #img4 {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 20%,
+        rgba(0, 0, 0, 1)
+      ),
+      url(../img/image-grid.jpg);
+  }
+  #img5 {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 20%,
+        rgba(0, 0, 0, 1)
+      ),
+      url(../img/image-from-above.jpg);
+  }
+  #img6 {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 20%,
+        rgba(0, 0, 0, 1)
+      ),
+      url(../img/image-pocket-borealis.jpg);
+  }
+  #img7 {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 20%,
+        rgba(0, 0, 0, 1)
+      ),
+      url(../img/image-curiosity.jpg);
+  }
+  #img8 {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 20%,
+        rgba(0, 0, 0, 1)
+      ),
+      url(../img/image-fisheye.jpg);
+  }
+  .footer {
+    height: 200px;
+    margin-top: 100px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+  }
+  .lc {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    
+  }
+  .nrightf {
+    display: flex;
+    flex-direction: row;
+  }
+  .titlef {
+    width: 16%;
+    color: white;
+    text-align: center;
+    font-size: medium;
+    margin: 10px;
+  }
+  .nleftf {
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+    flex-grow: 1;
+  }
+  .rc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+  }
+  .top2 {
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    margin-left: 50px;
+    align-items: center;
+  }
+  .bottom2 {
+    color: white;
+    opacity: 0.5;
+    height: 20px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+  }
+
+  body {
+    min-width: 350px;
+  }
+  .firstsection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: url("../img/image-hero.jpg") repeat-x;
+    height: 800px;
+  }
+  .column {
+    height: 280px;
+    width: 350px;
+  }
+
+  .nav {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .nright {
+    display: none;
+  }
+
+  
+  .nleft {
+    width: 70%;
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+    padding: 20px;
+    align-self: center;
+    text-align: center;
+    z-index: 2;
+  }
+  .ham{
+    width: 30%;
+  }
+
+  .menu {
+    width: 30%;
+    align-self: center;
+    text-align: center;
+    color: white;
+  }
+  
+.sidenav {
+  height: 100%; 
+  width: 0; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0; 
+  right: 0;
+  background-color: #111; 
+  overflow-x: hidden; 
+  padding-top: 60px; 
+  transition: 1s;
+}
+
+.margain{
+  margin-top: 50px;
+}
+.sidenav a {
+  padding: 15px 8px 8px 35px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.5s;
+}
+
+
+.sidenav a:hover {
+  color: #f1f1f1;
+  background-color: #818181;
+}
+
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 40px;
+  margin-left: 50px;
+}
+
+  .box {
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .txt {
+    width: 330px;
+    color: white;
+    font-size: 45px;
+    font-weight: 200;
+    border: white;
+    border-style: solid;
+    padding: 10px;
+    align-self: center;
+    text-transform: uppercase;
+  }
+
+  .ssection {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .imgs {
+    height: 30%;
+    margin: auto;
+  }
+  .img {
+    width: 320px;
+  }
+  .sbox {
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    background-color: white;
+    padding: 50px;
+  }
+  .stitle {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+  }
+  .stxt {
+    font-size: 15px;
+    margin-top: 10px;
+    opacity: 0.8;
+    font-weight: 500;
+  }
+  .thsection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+  }
+  .row1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    justify-content: space-around;
+  }
+  .our {
+    text-transform: uppercase;
+    font-size: 35px;
+    align-self: center;
+    order: 1;
+  }
+  .but {
+    order: 3;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  a:hover {
+    color: yellow;
+  }
+
+  .btn1 {
+    padding: 10px 0px;
+    width: 200px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(94, 90, 94);
+    color: rgb(70, 67, 70);
+    background-color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+
+  .ourclm {
+    order: 2;
+  }
+  .ourimg {
+    width: 330px;
+    height: 120px;
+    margin-bottom: 10px;
+    color: white;
+    text-transform: uppercase;
+    font-size: x-large;
+    font-weight: lighter;
+    padding-top: 80px;
+    padding-left: 30px;
+    padding-right: 50px;
+  }
+  #img1 {
+    background: linear-gradient(to left, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 1)),
+      url(../img/image-deep-earth\ -\ Copy.jpg);
+  }
+  #img2 {
+    background: linear-gradient(to left, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 1)),
+      url(../img/image-night-arcade.jpg);
+  }
+  #img3 {
+    background: linear-gradient(to left, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 1)),
+      url(../img/image-soccer-team.jpg);
+  }
+  #img4 {
+    background: linear-gradient(to left, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 1)),
+      url(../img/image-grid.jpg);
+  }
+  #img5 {
+    background: linear-gradient(to left, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 1)),
+      url(../img/image-from-above.jpg);
+  }
+  #img6 {
+    background: linear-gradient(to left, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 1)),
+      url(../img/image-pocket-borealis.jpg);
+  }
+  #img7 {
+    background: linear-gradient(to left, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 1)),
+      url(../img/image-curiosity.jpg);
+  }
+  #img8 {
+    background: linear-gradient(to left, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 1)),
+      url(../img/image-fisheye.jpg);
+  }
+  .footer {
+    height: 500px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+  }
+  .lc {
+    height: 60%;
+  }
+  .rc {
+    height: 40%;
+    padding-top: 50px;
+  }
+  .nrightf {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30%;
+  }
+  .titlef {
+    color: white;
+    text-align: center;
+    font-size: medium;
+    margin: 10px;
+  }
+  .nleftf {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    height: 30%;
+  }
+
+  .top2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 30%;
+  }
+  .bottom2 {
+    color: white;
+    opacity: 0.5;
+    height: 10%;
+    margin-top: 25px;
+  }
+  .title {
+    margin: 10px;
+  }
+}
